@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.wrapper {
+    /*border: 1px solid black;*/
+    /*adding a black border*/
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+    /*created this class because whnever we need center alignment we need to just call this class */
+}
+
+.clearfix {
+    /*for fix the design in line*/
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #192a56;
+    padding: 1%;
+    color: #44bd32;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #2f3640;
+}
+
+.btn-Secondary{
+    background-color:#2797ae;
+    padding: 1%;
+    color: #0f0f0f;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-Secondary:hover{
+    background-color:#2ecc71 ;
+} 
+.btn-danger{
+    background-color:#2797ae;
+    padding: 1%;
+    color: #0f0f0f;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color:#f03a08 ;
+}
+/* css for menu */
+.menu {
+    border-bottom: 1px solid;
+    /* added boarder below Home admin...*/
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    /*removes the bullets from the home,admin,.... */
+}
+
+.menu ul li {
+    display: inline;
+    /* whole list is in single row*/
+    padding: 1%
+        /*it gives space between two attributes like Home____Admin*/
+}
+
+.menu ul li a {
+    /* anchor tag editing*/
+    text-decoration: none;
+    /* under line which is buttome of home is removed */
+    font-weight: bold;
+    color: #ff6b81;
+    /*wild watermelon*/
+}
+
+.menu ul li a:hover {
+    color: #ff4757;
+    /*when cursor goes on attribte like home it changes color*/
+}
+
+/*css for main content*/
+.main-content {
+    margin: 1% 0;
+    background-color: #6ddaed;
+    padding: 3% 0;
+    /*padding is used for give space in a perticular box means inside the box where margin is used for outside the box*/
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for footer*/
+.footer {
+    background-color: #ff4757;
+    /*watermelon*/
+    color: white
+}
